@@ -15,13 +15,13 @@ services:
     networks:
       - mern-network
 
-  # frontend:
-  #   container_name: frontend
-  #   build: ./frontend
-  #   ports:
-  #     - "80:80"
-  #   networks:
-  #     - mern-network
+  frontend:
+    container_name: frontend
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - mern-network
 
   mongodb:
     container_name: mongodb
