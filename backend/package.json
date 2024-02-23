@@ -1,0 +1,20 @@
+{
+    "name": "leonmsaia-site-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.6.7",
+        "cheerio": "^1.0.0-rc.12",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "mysql2": "^3.9.1",
+        "xml2js": "^0.6.2"
+    }
+}

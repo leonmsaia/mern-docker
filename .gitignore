@@ -1,0 +1,29 @@
+# Dependencias de Node.js
+/node_modules
+
+# Archivos de compilación de frontend
+/frontend/build
+/frontend/dist
+
+# Archivos de dependencias de frontend
+/frontend/node_modules
+
+# Archivos de dependencias de backend
+/backend/node_modules
+
+# Archivos de configuración locales
+/backend/config/config.env
+
+# Archivos de registro
+/logs
+
+# Archivos temporales
+/tmp
+
+# Archivos de respaldo
+*.bak
+
+# Archivos de IDE y editor
+.idea/
+.vscode/
+*.iml

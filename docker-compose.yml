@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  backend:
+    container_name: backend
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongodb
+    environment:
+      MONGODB_URI: mongodb://mongodb:27017/site
+    networks:
+      - mern-network
+
+  # frontend:
+  #   container_name: frontend
+  #   build: ./frontend
+  #   ports:
+  #     - "80:80"
+  #   networks:
+  #     - mern-network
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    restart: always
+    ports:
+      - "27017:27017"
+    networks:
+      - mern-network
+
+networks:
+  mern-network:
+    driver: bridge
