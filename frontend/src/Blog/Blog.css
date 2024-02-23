@@ -1,0 +1,48 @@
+/*----------- Blog lightbox -----------*/
+/* Blog: Blog */
+.blog-section .single-post {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 70px;
+  }
+  
+  .blog-section .single-post .post-img {
+    height: 100%;
+    position: relative;
+  }
+  
+  .blog-section .single-post .post-img .content-date {
+    bottom: 0;
+    color: #fff;
+    display: inline-block;
+    left: 0;
+    padding: 0 14px;
+    position: absolute;
+  }
+  
+  .blog-section .single-post .post-content {
+    padding: 13px 0 0 0;
+  }
+  
+  .blog-section .single-post .post-content .content-title {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    margin-bottom: 6px;
+  }
+  
+  .blog-section .single-post .post-content .content-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+  
+  @media (max-width: 991.98px) {
+    .blog-section .single-post {
+      margin-bottom: 40px;
+    }
+  
+    .blog-section .single-post .post-content .content-title {
+      font-size: 20px;
+    }
+  }

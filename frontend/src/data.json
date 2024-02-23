@@ -1,0 +1,192 @@
+{  
+    "social": [
+        {
+            "name": "twitter",
+            "url": "https://www.instagram.com/leonsaia/"
+        },
+        {
+            "name": "facebook",
+            "url": "https://www.instagram.com/leonsaia/"
+        },
+        {
+            "name": "instagram",
+            "url": "https://www.instagram.com/leonsaia/"
+        }
+    ],
+    "content": {
+        "artist": {
+            "name": "Leon Saia",
+            "age": "36",
+            "email": "leonmsaia@gmail.com",
+            "from": "Buenos Aires, Argentina"
+        },
+        "home": {
+            "name": "Leon Saia",
+            "adjetives": [
+                "Designer",
+                "Artist",
+                "Entrepreneur",
+                "Husband",
+                "Son",
+                "Brother"
+            ],
+            "background": "path"
+        },
+        "about": {
+            "title": "Un poco sobre mi",
+            "subtitle": "Quien soy yo?",
+            "presentation": "Soy Leon Saia, desarrollador web, diseñador y artista grafico",
+            "bio": "Lorem Ipsum",
+            "cv": "link",
+            "services": [
+                {
+                    "name": "Diseño Grafico",
+                    "icon": "Icon",
+                    "description": "Descripcion"
+                },
+                {
+                    "name": "Diseño Web",
+                    "icon": "Icon",
+                    "description": "Descripcion"
+                },
+                {
+                    "name": "Business Intelligence",
+                    "icon": "Icon",
+                    "description": "Descripcion"
+                }
+            ],
+            "testimonials": [
+                {
+                    "picture": "path",
+                    "name": "John Charles",
+                    "position": "CEO at SARASA",
+                    "comment": "Lorem ipsum"
+                },
+                {
+                    "picture": "path",
+                    "name": "John Charles",
+                    "position": "CEO at SARASA",
+                    "comment": "Lorem ipsum"
+                },
+                {
+                    "picture": "path",
+                    "name": "John Charles",
+                    "position": "CEO at SARASA",
+                    "comment": "Lorem ipsum"
+                },
+                {
+                    "picture": "path",
+                    "name": "John Charles",
+                    "position": "CEO at SARASA",
+                    "comment": "Lorem ipsum"
+                }
+            ],
+            "plans": [
+                {
+                    "name": "Standard",
+                    "amount": "USD 20",
+                    "period": "month",
+                    "includes": [
+                        "Mobile App Design", "Responsive Design", "Database Development", "Web Design", "24/7 Support"
+                    ],
+                    "contact": "path"
+                },
+                {
+                    "name": "Premium",
+                    "amount": "USD 50",
+                    "period": "month",
+                    "includes": [
+                        "Mobile App Design", "Responsive Design", "Database Development", "Web Design", "24/7 Support"
+                    ],
+                    "contact": "path"
+                },
+                {
+                    "name": "Pro",
+                    "amount": "USD 100",
+                    "period": "month",
+                    "includes": [
+                        "Mobile App Design", "Responsive Design", "Database Development", "Web Design", "24/7 Support"
+                    ],
+                    "contact": "path"
+                }
+            ]
+        },
+        "resume": {
+            "name": "Leon Saia",
+            "education": [
+                {
+                    "degree": "Diseñador Web",
+                    "institution": "UNGS",
+                    "time": "2015-2023",
+                    "comment": "Lorem ipsum"
+                },
+                {
+                    "degree": "Diseñador Web",
+                    "institution": "UNGS",
+                    "time": "2015-2023",
+                    "comment": "Lorem ipsum"
+                },
+                {
+                    "degree": "Diseñador Web",
+                    "institution": "UNGS",
+                    "time": "2015-2023",
+                    "comment": "Lorem ipsum"
+                },
+                {
+                    "degree": "Diseñador Web",
+                    "institution": "UNGS",
+                    "time": "2015-2023",
+                    "comment": "Lorem ipsum"
+                }
+            ],
+            "experience": [
+                {
+                    "degree": "Diseñador Web",
+                    "institution": "UNGS",
+                    "time": "2015-2023",
+                    "comment": "Lorem ipsum"
+                },
+                {
+                    "degree": "Diseñador Web",
+                    "institution": "UNGS",
+                    "time": "2015-2023",
+                    "comment": "Lorem ipsum"
+                },
+                {
+                    "degree": "Diseñador Web",
+                    "institution": "UNGS",
+                    "time": "2015-2023",
+                    "comment": "Lorem ipsum"
+                },
+                {
+                    "degree": "Diseñador Web",
+                    "institution": "UNGS",
+                    "time": "2015-2023",
+                    "comment": "Lorem ipsum"
+                }
+            ],
+            "skills": [
+                {
+                    "development": [
+                        {
+                            "title": "React JS",
+                            "amount": "90"
+                        }
+                    ],
+                    "corporative": [
+                        {
+                            "title": "Agile",
+                            "amount": "20"
+                        }
+                    ]
+                }
+
+            ],
+            "office": {
+                "text": "Lorem ipsum",
+                "video": "path"
+            }
+        }
+
+    }
+}

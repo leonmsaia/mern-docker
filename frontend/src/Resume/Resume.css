@@ -1,0 +1,218 @@
+/*----------- Resume lightbox -----------*/
+/* Resume: Resume */
+.resume-section .col-block.education {
+    margin-right: 20px;
+  }
+  
+  .resume-section .col-block.experience {
+    margin-left: 20px;
+  }
+  
+  .resume-section .col-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  .resume-section .resume-item {
+    background-color: #161616;
+    border-left: 2px solid transparent;
+    padding: 32px 48px;
+    position: relative;
+  }
+  
+  .resume-section .resume-item:not(:last-child) {
+    border-bottom: 1px solid #313131;
+  }
+  
+  .resume-section .resume-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .resume-section .resume-item .item-arrow {
+    left: 0;
+    margin-top: 2px;
+    position: absolute;
+  }
+  
+  .resume-section .resume-item .item-arrow:before,
+  .resume-section .resume-item .item-arrow:after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  
+  .resume-section .resume-item .item-arrow:before {
+    height: 16px;
+    left: 0;
+    width: 16px;
+  }
+  
+  .resume-section .resume-item .item-arrow:after {
+    border: 8px solid transparent;
+    left: 16px;
+  }
+  
+  .resume-section .resume-item .item-title {
+    line-height: 100%;
+    margin-bottom: 9px;
+  }
+  
+  .resume-section .resume-item .item-details {
+    display: inline-block;
+    margin-bottom: 7px;
+  }
+  
+  .resume-section .resume-item .item-description {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 767.98px) {
+    .resume-section .resume-item {
+      padding-right: 20px;
+    }
+  
+    .resume-section .col-block.education,
+    .resume-section .col-block.experience {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .resume-section .col-12:last-child .resume-item:last-child {
+      margin-bottom: 0;
+    }
+  
+    .resume-section .col-12:first-child .resume-item:last-child {
+      margin-bottom: 60px;
+    }
+  }
+  
+  /* Resume: Skills */
+  .skills-section .single-skill:not(:last-child) {
+    margin-bottom: 42px;
+  }
+  
+  .skills-section .single-skill .skill-info {
+    -ms-flex-pack: justify;
+    color: #cecece;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    margin-bottom: 4px;
+  }
+  
+  .skills-section .single-skill .skill-info .skill-name {
+    display: inline-block;
+    margin-right: 12px;
+    white-space: nowrap;
+  }
+  
+  .skills-section .single-skill .skill-progress {
+    background-color: #2f2f2f;
+    border-radius: 1px;
+    font-size: 15px;
+    height: 9px;
+    overflow: visible;
+  }
+  
+  .skills-section .single-skill .skill-progress .progress-bar {
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .skills-section .single-skill:not(:last-child) {
+      margin-bottom: 40px !important;
+    }
+  
+    .skills-section [class*='col-']:not(:last-child) .single-skill {
+      margin-bottom: 40px !important;
+    }
+  }
+  
+  /* Resume: Video */
+  .video-section .content-part .video-title {
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 13px;
+  }
+  
+  .video-section .content-part .video-description {
+    font-size: 16px;
+    line-height: 2;
+  }
+  
+  .video-section .content-part .video-description:last-child {
+    margin-bottom: 0;
+  }
+  
+  .video-section .video-part .embed-responsive-item {
+    /* background-image: url(../img/video.jpg); */
+  }
+  
+  .video-section .video-part .embed-responsive-item:before {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-section .video-part .embed-responsive-item,
+  .video-section .video-part .embed-responsive-item:before {
+    border-radius: 3px;
+  }
+  
+  .video-section .video-part .embed-responsive-item .play-wrapper {
+    -webkit-transform: scale(1);
+    background-color: #fff;
+    border-radius: 50%;
+    bottom: 0;
+    display: block;
+    height: 56px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
+    width: 56px;
+  }
+  
+  .video-section .video-part .embed-responsive-item .play-wrapper .icon {
+    color: #222;
+    display: block;
+    font-size: 20px;
+    line-height: 58px;
+    text-align: center;
+  }
+  
+  .video-section .video-part .embed-responsive-item:hover .play-wrapper {
+    -webkit-transform: scale(1.075);
+    transform: scale(1.075);
+  }
+  
+  @media (max-width: 1199.98px) {
+    .video-section .content-part .video-title {
+      font-size: 30px;
+      margin-bottom: 13px;
+    }
+  
+    .video-section .content-part .video-description {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 991.98px) {
+    .video-section .content-part {
+      margin-bottom: 25px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .video-section .content-part .video-title {
+      font-size: 28px;
+    }
+  
+    .video-section .content-part .video-description {
+      font-size: 14px;
+    }
+  }

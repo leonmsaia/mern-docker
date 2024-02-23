@@ -1,0 +1,357 @@
+/*----------- About lightbox -----------*/
+/* About: Info */
+.info-section .info-img img {
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.18);
+    width: 430px;
+  }
+  
+  .info-section .info-content .content-subtitle {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .info-section .info-content .content-title {
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  
+  .info-section .info-content .content-description {
+    font-size: 15px;
+  }
+  
+  .info-section .info-content .content-description p:last-child {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 0;
+    padding-bottom: 29px;
+  }
+  
+  .info-section .info-content .content-info {
+    font-size: 15px;
+    margin-bottom: 4px;
+    padding: 29px 0;
+  }
+  
+  .info-section .info-content .content-info>.row:last-child .single-info {
+    margin-bottom: 0;
+  }
+  
+  .info-section .info-content .content-info .single-info {
+    margin-bottom: 10px;
+  }
+  
+  .info-section .info-content .content-info .single-info>span {
+    color: #dadada;
+    font-weight: 400;
+    margin-right: 10px;
+  }
+  
+  .info-section .info-content .content-info .single-info>p {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  
+  .info-section .info-content .content-download {
+    margin-right: 23px;
+  }
+  
+  .info-section .info-content .content-follow {
+    -ms-flex-align: center;
+    align-items: center;
+    display: inline-block;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 100%;
+    margin-bottom: 0;
+  }
+  
+  .info-section .info-content .content-follow:before {
+    background-color: rgba(255, 255, 255, 0.25);
+    content: '';
+    height: 2px;
+    margin-right: 23px;
+    width: 60px;
+  }
+  
+  .info-section .info-content .content-follow li {
+    font-size: 21px;
+  }
+  
+  .info-section .info-content .content-follow li:not(last-child) {
+    margin-right: 14px;
+  }
+  
+  .info-section .info-content .content-follow li a {
+    color: #cecece;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .info-section .info-img img {
+      -o-object-fit: cover;
+      height: 440px;
+      object-fit: cover;
+    }
+  
+    .info-section .info-content .content-subtitle {
+      display: none;
+    }
+  
+    .info-section .info-content .content-title {
+      font-size: 26px;
+    }
+  
+    .info-section .info-content .content-description {
+      font-size: 14px;
+    }
+  
+    .info-section .info-content .content-description p:last-child {
+      padding-bottom: 20px;
+    }
+  
+    .info-section .info-content .content-info {
+      font-size: 14px;
+      padding: 20px 0;
+    }
+  }
+  
+  @media (max-width: 991.98px) {
+    .info-section .info-img img {
+      -o-object-fit: cover;
+      border-radius: 50%;
+      display: block;
+      height: 250px;
+      margin: 0 auto 40px auto;
+      object-fit: cover;
+      width: 250px;
+    }
+  
+    .info-section .info-content .content-subtitle {
+      font-size: 18px;
+    }
+  
+    .info-section .info-content .content-title {
+      font-size: 26px;
+    }
+  
+    .info-section .info-content .content-description {
+      font-size: 14px;
+    }
+  
+    .info-section .info-content .content-description p:last-child {
+      padding-bottom: 24px;
+    }
+  
+    .info-section .info-content .content-info {
+      font-size: 14px;
+      margin-bottom: 0;
+      padding: 24px 0;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .info-section .info-img img {
+      height: 200px;
+      width: 200px;
+    }
+  
+    .info-section .info-content .content-info>.row:last-child .single-info {
+      margin-bottom: 10px;
+    }
+  
+    .info-section .info-content .content-info .single-info {
+      display: block;
+      margin-bottom: 10px;
+      width: auto;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .info-section {
+      padding-bottom: 51px;
+    }
+  
+    .info-section .info-img img {
+      margin: 0 auto 32px auto;
+    }
+  
+    .info-section .info-content .content-subtitle {
+      font-size: 18px;
+    }
+  
+    .info-section .info-content .content-title {
+      font-size: 22px;
+    }
+  
+    .info-section .info-content .content-download {
+      margin-bottom: 27px;
+    }
+  }
+  
+  /* About: Services */
+  .services-section .single-service {
+    background-color: #161616;
+    border-bottom: 2px solid transparent;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    padding: 38px 42px;
+    transition: all 0.15s ease-in-out;
+  }
+  
+  .services-section .single-service .service-icon {
+    display: inline-block;
+    font-size: 58px;
+    margin-bottom: 22px;
+  }
+  
+  .services-section .single-service .service-title {
+    color: #f3f3f3;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    margin-bottom: 14px;
+  }
+  
+  .services-section .single-service .service-description {
+    margin-bottom: 0;
+  }
+  
+  /* About: Testimonials */
+  .testimonials-section .single-review {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    background-color: #161616;
+    padding: 48px 40px;
+    text-align: left;
+    user-select: none;
+  }
+  
+  .testimonials-section .single-review .review-header {
+    margin-bottom: 23px;
+  }
+  
+  .testimonials-section .single-review .review-client {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-align: left;
+  }
+  
+  .testimonials-section .single-review .review-client .client-avatar {
+    margin-right: 14px;
+    width: 54px;
+  }
+  
+  .testimonials-section .single-review .review-client .client-details {
+    -ms-flex-item-align: center;
+    align-self: center;
+    line-height: 100%;
+  }
+  
+  .testimonials-section .single-review .review-client .client-name {
+    color: #efefef;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 7px;
+  }
+  
+  .testimonials-section .single-review .review-client .client-role {
+    color: #888;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .testimonials-section .single-review .review-icon {
+    display: inline-block;
+    font-size: 50px;
+  }
+  
+  .testimonials-section .single-review .review-content {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  
+  .testimonials-section .tns-outer {
+    position: relative;
+  }
+  
+  .testimonials-section .tns-nav {
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 991.98px) {
+    .testimonials-section .single-review {
+      padding: 45px 40px;
+    }
+  
+    .testimonials-section .single-review .review-client .client-avatar {
+      width: 50px;
+    }
+  
+    .testimonials-section .single-review .review-client .client-role {
+      font-size: 13px;
+    }
+  
+    .testimonials-section .single-review .review-icon {
+      display: inline-block;
+      font-size: 47px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .testimonials-section .single-review .review-content {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 362px) {
+    .testimonials-section .single-review .review-icon {
+      display: none;
+    }
+  }
+  
+  /* About: Pricing */
+  .pricing-section .single-plan {
+    background-color: #161616;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .pricing-section .single-plan .plan-icon {
+    display: inline-block;
+    font-size: 54px;
+    margin-bottom: 27px;
+  }
+  
+  .pricing-section .single-plan .plan-type {
+    color: #f0f0f0;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  
+  .pricing-section .single-plan .plan-price {
+    color: #f0f0f0;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 22px;
+  }
+  
+  .pricing-section .single-plan .plan-list {
+    margin-bottom: 18px;
+  }
+  
+  .pricing-section .single-plan .plan-list li {
+    color: inherit;
+    padding: 8px;
+  }
+  
+  @media (max-width: 991.98px) {
+    .pricing-section .single-plan {
+      padding: 50px 0;
+    }
+  }
